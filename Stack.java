@@ -54,4 +54,16 @@ public class Stack
 			throw new StackEmptyException();
 		}
 	}
+	
+	public int peek() throws StackEmptyException
+	{
+		if(!isEmpty())
+		{	
+			return head.getValue();
+		}
+		else
+		{
+			throw new StackEmptyException();
+		}
+	}
 }

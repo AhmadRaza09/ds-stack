@@ -18,8 +18,8 @@ public class StackDemo
 		System.out.println(s1.isEmpty());
 		System.out.println(s1.pop());
 		System.out.println(s1.pop());
-		System.out.println(s1.pop());
-		System.out.println(s1.pop());
+		
+		System.out.println(s1.peek());
 		
 		
 	}
