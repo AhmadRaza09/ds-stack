@@ -23,4 +23,17 @@ public class Stack
 	{
 		return size;
 	}
+	
+	public void push(int value)
+	{
+		//add value in new node
+		Node newNode = new Node();
+		newNode.setValue(value);
+		
+		//connect to next node
+		newNode.setNext(head);
+		
+		//head point to new Node
+		head = newNode;
+	}
 }
