@@ -40,4 +40,18 @@ public class Stack
 		//if head is null then return true otherwise false
 		return head == null;
 	}
+	
+	public int pop() throws StackEmptyException
+	{
+		if(!isEmpty())
+		{
+			int value = head.getValue();
+			head = head.getNext();
+			return value;
+		}
+		else
+		{
+			throw new StackEmptyException();
+		}
+	}
 }
