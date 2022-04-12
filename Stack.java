@@ -18,4 +18,9 @@ public class Stack
 		size = 0;
 	}
 	
+	
+	public int getSize()
+	{
+		return size;
+	}
 }
