@@ -11,4 +11,11 @@ public class Stack
 	private int size;
 	
 	
+	public Stack()
+	{
+		head = null;
+		current = null;
+		size = 0;
+	}
+	
 }
