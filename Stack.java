@@ -33,6 +33,9 @@ public class Stack
 		
 		//head point to new Node
 		head = newNode;
+		
+		//increse size
+		size++;
 	}
 	
 	public boolean isEmpty()
