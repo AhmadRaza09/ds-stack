@@ -13,7 +13,6 @@ public class Stack
 	public Stack()
 	{
 		head = null;
-		current = null;
 		size = 0;
 	}
 	
@@ -34,5 +33,11 @@ public class Stack
 		
 		//head point to new Node
 		head = newNode;
+	}
+	
+	public boolean isEmpty()
+	{
+		//if head is null then return true otherwise false
+		return head == null;
 	}
 }
