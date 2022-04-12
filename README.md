@@ -1,2 +1,2 @@
-# ds-stacl
+# ds-stack
 Stack  with linked list
