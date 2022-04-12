@@ -7,7 +7,6 @@
 public class Stack
 {
 	private Node head;
-	private Node current;
 	private int size;
 	
 	
