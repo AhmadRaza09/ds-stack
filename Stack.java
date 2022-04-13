@@ -69,4 +69,10 @@ public class Stack
 			throw new StackEmptyException();
 		}
 	}
+	
+	public void delete()
+	{
+		head = null;
+		size = 0;
+	}
 }

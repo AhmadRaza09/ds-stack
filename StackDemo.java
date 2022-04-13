@@ -10,16 +10,22 @@ public class StackDemo
 	public static void main(String [] args) throws StackEmptyException
 	{
 		Stack s1 = new Stack();
-		System.out.println(s1.getSize());
-		System.out.println(s1.isEmpty());
-		s1.push(3);
-		s1.push(4);
-		s1.push(5);
-		System.out.println(s1.isEmpty());
-		System.out.println(s1.pop());
-		System.out.println(s1.pop());
+		for(int i = 0; i < 11; i++)
+		{
+			s1.push(i);
+			System.out.println("added: " + s1.peek());
+		}
 		
-		System.out.println(s1.peek());
+		int size = s1.getSize();
+		s1.delete();
+		
+		for(int i = 1; i <= size; i++)
+		{
+			
+			System.out.println("pop: " + s1.pop());
+		}
+		
+		System.out.println("end: " + s1.pop());
 		
 		
 	}
